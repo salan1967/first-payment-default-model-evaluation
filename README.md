@@ -1,11 +1,10 @@
 # first-payment-default-model-evaluation
 End-to-end ML model evaluation and selection project for first-payment default prediction, featuring train/validate/test benchmarking across classification models, rigorous ROC-AUC evaluation with experiment tracking, GridSearchCV tuning, class weights/SMOTE, and SHAP interpretability.
 
-# Model Evaluation & Benchmarking — First Payment Default Prediction (Kaggle)
+# Model Evaluation & Benchmarking: First Payment Default Prediction (Kaggle)
 
 This project focuses on **model evaluation**: building a reproducible pipeline to **train, compare, and validate multiple classification models** on an imbalanced credit-risk dataset. The goal is not just to build a model, but to **measure performance rigorously**, test improvement strategies (tuning + imbalance methods), and communicate results clearly.
 
-## Why this project
 In real-world analytics, selecting the “best” model requires more than accuracy. This project demonstrates:
 - **Model benchmarking** across algorithms
 - **Cross-validated evaluation** and test-set validation
@@ -56,7 +55,3 @@ Key experiment outcomes:
 ### 5) Model Explainability
 Used **SHAP** to identify global feature importance and explain an individual high-risk prediction.
 
-## How to Run
-1) Install dependencies:
-```bash
-pip install -r requirements.txt
